@@ -1,0 +1,260 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+a{
+    text-decoration: none;
+    opacity: 50%;
+    color: #FFF;
+    transition: all .15s ease-in-out;
+}
+
+a:hover{
+    opacity: 100%;
+}
+
+.header{
+    display: flex;
+    background-color: #373A3C;
+    width: 1400px;
+    padding: 24px 0px;
+}
+
+.header__textimg{
+    padding: 0px 24px;
+}
+
+.header__img{
+    margin-left: 15px;
+}
+
+.header__link{
+    display: flex;
+    align-items: center;
+}
+
+.header__src{
+    width: 100%;
+    width: 210px;
+    height: 38px;
+    border: 1px solid #CCC; 
+    transition: all .15s ease-in-out;
+    margin-left: 50px;
+    font-size: 15px;
+}
+
+.header__src:hover{
+    width: 220px;
+    border-radius: 5px;
+}
+
+.profile__text{
+    padding: 0px 10px;
+}
+
+.header__profile{
+    margin-left: 30px;
+}
+
+.intro{
+    display: flex;
+    align-items: center;
+    width: 1400px;
+    background-image: url(/img/Star-Wars-Battlefront-II-combat.jpg);
+    color: #FFF;
+}
+
+.intro__img{
+    width: 100%;
+}
+
+.intro__text{
+    margin-left: 650px;
+}
+
+.intro__header{
+    font-size: 36px;
+
+}
+
+.intro__descriptoin{
+    font-size: 24px;
+}
+
+.arrow_left{
+    margin-left: 0;
+}
+
+.arrow_right{
+    margin-right: 0;
+}
+
+.intro__btn{
+    margin-top: 140px;
+}
+
+.btn{
+    background-color: #8DD83D;
+    padding: 17px 27px;
+    margin-right: 13px;
+    color: #FFF;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+.btn:hover{
+    background-color: #5b8a2a;
+}
+
+.btn_color{
+    background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+}
+
+.btn_color:hover{
+    background: linear-gradient(180deg, #535557 0%, #282b2c 100%);
+}
+
+.main{
+    width: 1400px;
+    background: radial-gradient(100% 100% at 50% 0%, #686C6F 0%, #373A3C 100%);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 865px;
+    color: #FFF;
+}
+
+.main__header{
+    margin-top: 16px;
+    font-size: 48px;
+
+}
+
+.main__description{
+    font-size: 36px;
+}
+
+.main__container{
+    display: flex;
+    padding: center;
+    margin-top: 43px;
+    color: #435766;
+}
+
+.container__box{
+    background-color: #FFF;
+    padding-bottom: 40px;
+    border: 1px solid #8DD83D;
+    border-radius: 3px;
+    text-align: start;
+}
+
+.box__description{
+    margin-top: 13px;
+    font-size: 24px;
+}
+
+.box__btn{
+    margin-top: 40px;
+    font-size: 16px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.box__header{
+    margin-top: 22px;
+    font-size: 18px;
+}
+
+.main__img{
+    margin-top: 63px;
+}
+
+.box__text{
+    margin-left: 22px;
+    width: 260px;
+}
+
+.main_container{
+    padding: 0px 32px;
+}
+
+.design{
+    display: flex;
+    align-items: center;
+    width: 1400px;
+    height: 480px;
+    background-image: url(/img/design.jpg);
+    color: #FFF;
+}
+
+.design__header{
+    font-size: 48px;
+}
+
+.design__description{
+    font-size: 24px;
+    width: 543px;
+}
+
+.design__text{
+    margin-left: 170px;
+}
+
+.design__btn{
+    margin-top: 60px;
+}
+
+.foot{
+    width: 1400px;
+    background-color: #373A3C;
+}
+
+.footer{
+    display: flex;
+}
+
+.container__header{
+    font-size: 18px;
+    margin-top: 60px;
+    color: #7DD42F;
+}
+
+.container__link{
+    padding: 30px 0px;
+    color: #FFF;
+}
+
+.container__logo{
+    margin-top: 30px;
+    padding: 0px 10px;
+}
+
+.footer__container{
+    display: flex;
+    flex-direction: column;
+}
+
+.line{
+    width: 1200px;
+    height: 2px;
+    background-color: #FFF;
+    opacity: 35%;
+    margin-top: 50px;
+}
+
+.end{
+    width: 1400px;
+    color: #FFF;
+}
+
+.end__text{
+    padding: 20px 0px;
+    display: flex;
+    flex-flow: row nowrap;
+
+}
